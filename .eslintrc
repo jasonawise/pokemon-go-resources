@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "wesbos",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": 1,
+    "semi": [
+      2,
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "backtick",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "space-in-parens": [
+      "error",
+      "always"
+    ],
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
+    "array-bracket-spacing": [
+      2,
+      "always"
+    ],
+    "prettier/prettier": 0
+    // "prettier/prettier": [
+    //   "error",
+    //   {
+    //     "trailingComma": "es5",
+    //     "singleQuote": true,
+    //     "printWidth": 120,
+    //     "tabWidth": 2,
+    //     "semi": false,
+    //     "embeddedLanguageFormatting": "off"
+    //   }
+    // ]
+  }
+}
